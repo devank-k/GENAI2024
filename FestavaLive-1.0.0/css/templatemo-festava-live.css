@@ -383,7 +383,7 @@ strong {
 
 .navbar-brand,
 .navbar-brand:hover {
-  color: var(--white-color);
+  color:#ee510b;
   font-size: var(--h5-font-size);
   font-weight: var(--font-weight-bold);
 }
