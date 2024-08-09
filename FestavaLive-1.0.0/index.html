@@ -154,12 +154,13 @@ https://templatemo.com/tm-583-festava-live
             </div>
 
             <div class="video-wrap">
-                <video autoplay="" loop="" muted="" class="custom-video" poster="">
+                <video autoplay="" muted="" class="custom-video" poster="" id="video" onended="scrollToNextSection()">
                     <source src="video/video 2.mp4" type="video/mp4">
-
                     Your browser does not support the video tag.
                 </video>
+                <div class="tint-overlay"></div>
             </div>
+            
         </section>
 
 
@@ -768,13 +769,14 @@ https://templatemo.com/tm-583-festava-live
 T e m p l a t e M o
 
 -->
-
     <!-- JAVASCRIPT FILES -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.sticky.js"></script>
     <script src="js/click-scroll.js"></script>
     <script src="js/custom.js"></script>
+    <script src="js/video.js"></script>
+    
 
 </body>
 
