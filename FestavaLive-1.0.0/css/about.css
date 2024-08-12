@@ -1,0 +1,95 @@
+
+.section-padding {
+    padding: 60px 0;
+  }
+  
+  .lni-check-mark-circle:before {
+    content: "\e94c";
+  }
+
+  .img-fluid {
+    vertical-align: middle;
+    border-style: none;
+  }
+    
+    .about-content {
+      height: 100%;
+      display: table;
+    }
+    
+    .about-content > div {
+      vertical-align: middle;
+      display: table-cell;
+    }
+    
+    .about-content .about-text h2 {
+      font-size: 40px;
+      font-weight: 700;
+    }
+    
+    .about-content .about-text h6 {
+      font-size: 18px;
+      line-height: 32px;
+      font-weight: 400;
+      margin-top: 20px;
+    }
+    
+    .about-content .about-text p {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    
+    .about-content ul {
+      margin-bottom: -8px;
+    }
+    
+    .about-content ul li {
+      list-style: none;
+      line-height: 30px;
+      position: relative;
+      padding-left: 25px;
+    }
+    
+    .about-content ul li i {
+      position: absolute;
+      left: 0;
+      top: 7px;
+      font-size: 16px;
+      color: #ff4a67;
+    }
+    
+    .about-content .btn-about {
+      margin-top: 30px;
+    }
+    
+    .about-content .btn-about .btn {
+      margin-right: 10px;
+    }
+  
+    @media (max-width: 991px) {
+      .about-item {
+        margin-bottom: 30px;
+      }
+    }
+  
+    @media (min-width: 768px) and (max-width: 991px) {
+      .about-content .about-text h2 {
+        font-size: 30px;
+        margin-top: 30px;
+      }
+      .about-item {
+        margin-bottom: 30px;
+      }
+    }
+  
+    @media (max-width: 767px) {
+      .about-content .about-text h2 {
+        font-size: 22px;
+        margin-top: 20px;
+      }
+      .about-content ul li {
+        font-size: 12px;
+      }
+    }
+  
+   
