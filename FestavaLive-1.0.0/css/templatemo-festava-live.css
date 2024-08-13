@@ -5,13 +5,19 @@ TemplateMo 583 Festava Live
 https://templatemo.com/tm-583-festava-live
 
 */
+@font-face {
+  font-family: 'Armstrong';
+  src: url('.../fonts/Armstrong.ttf') format('truetype');
+  /* Add more src declarations for different font file formats if needed */
+}
 
+/* Rest of your CSS code */
 
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
 :root {
-  --white-color:                  #f2f0e4;
+  --white-color:                  #FFEEA9;
   --primary-color:                #F8CB2E;
   --secondary-color:              #EE5007;
   --section-bg-color:             #f0f8ff;
@@ -22,7 +28,7 @@ https://templatemo.com/tm-583-festava-live
   --border-color:                 #7fffd4;
   --link-hover-color:             #B22727;
 
-  --body-font-family:             'Outfit', sans-serif;
+  --body-font-family:             'Armstrong', sans-serif;
 
   --h1-font-size:                 74px;
   --h2-font-size:                 46px;
@@ -38,13 +44,14 @@ https://templatemo.com/tm-583-festava-live
   --border-radius-medium:         20px;
   --border-radius-small:          10px;
 
-  --font-weight-light:            300;
+  --font-weight-light:            500;
   --font-weight-normal:           400;
   --font-weight-bold:             700;
 }
 
 body {
-  background-color: var(--white-color);
+  background: rgb(255,255,255);
+background: linear-gradient(153deg, rgba(255,255,255,1) 0%, rgba(245,171,106,1) 100%);
   font-family: var(--body-font-family); 
 }
 
@@ -977,3 +984,23 @@ strong {
   }
 }
 
+/* From Uiverse.io by Juanes200122 */ 
+.container-2 {
+  width: 100%;
+  height: 100%;
+  /* Add your background pattern here */
+  background-color: #ffffff00;
+  background-image: radial-gradient(rgba(255, 180, 126, 0.295) 2px, transparent 0);
+  background-size: 30px 30px;
+  background-position: -5px -5px;
+}
+
+.container-3 {
+  width: 100%;
+  height: 100%;
+  /* Add your background pattern here */
+  background-color: #ffffff00;
+  background-image: radial-gradient(rgba(251, 144, 68, 0.396) 2px, transparent 0);
+  background-size: 30px 30px;
+  background-position: -5px -5px;
+}
