@@ -7,7 +7,7 @@ https://templatemo.com/tm-583-festava-live
 */
 @font-face {
   font-family: 'Armstrong';
-  src: url('.../fonts/Armstrong.ttf') format('truetype');
+  src: url('../fonts/Armstrong.ttf') format('truetype');
   /* Add more src declarations for different font file formats if needed */
 }
 
