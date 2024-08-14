@@ -6,7 +6,7 @@ video.addEventListener('ended', function() {
   console.log('Video ended');
   
   // Get the next section element
-  const nextSection = document.getElementById('section_2');
+  const nextSection = document.getElementById('about');
   
   console.log('Next section:', nextSection);
   
