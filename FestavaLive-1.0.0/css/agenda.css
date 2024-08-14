@@ -37,7 +37,7 @@ img {
 .box-about-title {
 	position: absolute;
 	top: 50%;
-	left: 58px;
+	left: 18px;
 	transform: translate(0, -50%);
 }
 
@@ -50,13 +50,14 @@ img {
 .box-about-title1{
 	position: absolute;
 	top: 50%;
-	left: 102px;
+	left: 2px;
 	transform: translate(0, -50%);
 }
 
 @media (min-width: 992px) {
 	.box-about-title1 {
-		left: 210px;
+		left: 35px;
+		font-size: 35px;
 	}
 }
 
